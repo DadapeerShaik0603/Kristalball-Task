@@ -72,13 +72,6 @@ This project develops a data-driven forecasting and inventory recommendation sys
 - ARIMA with fixed (1,1,1) order is sufficient for all items.
 - A 30% safety buffer adequately accounts for demand variability.
 
-## Limitations
-
-- **No Model Evaluation**: Lacks validation metrics (e.g., MAE, RMSE) to assess forecast accuracy.
-- **Fixed ARIMA Parameters**: May not capture complex patterns for all items.
-- **Data Anomalies**: Near-zero opening balances (e.g., 8.526513e-14 ml) suggest potential data quality issues.
-- **No External Factors**: Does not account for holidays, promotions, or events affecting demand.
-
 ## Future Improvements
 
 - **Feature Engineering**: Implement planned features (e.g., Day of Week, Season) to capture temporal patterns.
